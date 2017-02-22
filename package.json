@@ -1,0 +1,41 @@
+{
+  "author": {
+    "name": "ShiwaForce",
+    "email": "hello@shiwaforce.com"
+  },
+  "bugs": {
+    "url": "https://github.com/shiwaforce/eslint-config-client-shiwaforce/issues"
+  },
+  "dependencies": {
+    "extend": "^3.0.0"
+  },
+  "description": "Shareable client side config for eslint by ShiwaForce",
+  "devDependencies": {
+    "eslint": "^3.13.1"
+  },
+  "homepage": "https://github.com/shiwaforce/eslint-config-client-shiwaforce#readme",
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "eslint-config-client",
+    "eslint-config-browser",
+    "eslint-config-client-shiwaforce"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "shiwaforce",
+      "email": "operations@shiwaforce.com"
+    }
+  ],
+  "name": "eslint-config-client-shiwaforce",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiwaforce/eslint-config-client-shiwaforce.git"
+  },
+  "scripts": {
+    "lint": "./node_modules/.bin/eslint index.js rules/*.js .eslintrc.js --ignore-pattern !.eslintrc.js"
+  },
+  "version": "1.0.0"
+}
