@@ -5,5 +5,6 @@
 module.exports = {
 	browser: true,
 	es6: true,
-	commonjs: true
+	commonjs: true,
+	jquery: true
 };

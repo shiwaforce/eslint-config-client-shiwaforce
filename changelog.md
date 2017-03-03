@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.3 / 2017.03.03.
+- fixed jquery support
+
 ## 1.1.2 / 2017.03.03.
 - fixed `import` usage in ES6 modules
 
