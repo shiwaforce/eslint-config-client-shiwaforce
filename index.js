@@ -5,10 +5,12 @@
  */
 var ecmaFeatures = require('./rules/ecma-features');
 var envrionment = require('./rules/envrionment');
+var parser = require('./rules/parser');
 var predefinedGlobals = require('./rules/globals');
 var rules = require('./rules/rules');
 
 module.exports = {
+	parser: parser,
 	env: envrionment,
 	ecmaFeatures: ecmaFeatures,
 	globals: predefinedGlobals,
