@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.4 / 2017.03.06.
+- fixed babel-eslint dependency
+- improve readme
+
 ## 1.1.3 / 2017.03.03.
 - fixed jquery support
 

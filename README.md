@@ -2,15 +2,23 @@
 
 ## Main concept, the idea behind the things below
 
-![code quality transformation](./quality-transformation.png "Code quality transformation")
+![code quality transformation](./quality-transformation.png "Code quality transformation with eslint")
 
 We want to work with beautiful, nicely formatted code, so with the help of eslint we aim to enforce it - as much as we can. In an ideal world everybody would write such high quality code. Until we reach this state to standardise code formatting the eslint plugin can be a great help.
 
 ## Installation
 
-```
-npm install eslint eslint-config-client-shiwaforce --save-dev
-```
+1. Install dependencies: `npm install eslint eslint-config-client-shiwaforce --save-dev`
+2. Create eslint config file, which name is `.eslintrc` with the following content
+	```json
+	{
+		"extends": "eslint-config-client-shiwaforce"
+	}
+	```
+3. Check the result by the following command line
+
+	`./node_modules/.bin/eslint YOUR_FOLDER_OF_YOUR_JAVASCRIPT_FILES/**/*.js`
+
 
 ## Usage
 
@@ -26,20 +34,24 @@ You can create this file (.eslintrc) at a different location but in this case yo
 Run the linter by executing the command below:
 
 ```
-./node_modules/.bin/eslint client/**/*.js
+./node_modules/.bin/eslint YOUR_FOLDER_OF_YOUR_JAVASCRIPT_FILES/**/*.js
 ```
+Where `client` is the folder where you store your client side javascript files.
 
 In case of a global installation the start the linter with...
 
 ```
-eslint client/**/*.js
+eslint YOUR_FOLDER_OF_YOUR_JAVASCRIPT_FILES/**/*.js
 ```
+But your
 
 If running eslint gives a message indicating that running `eslint --init` is necessary then you created the .eslintrc file in the wrong place.
 
 This command does NOT walk the entire dependency tree based on `require`-s or `import`-s, it only walks the file or files listed here. Of course, wild card characters can be used. For more information please visit the dedicated page at eslint ([cli docs](http://eslint.org/docs/user-guide/command-line-interface))
 
 ## Extending/Overriding the config
+
+You can modify the default recommended ruleset.
 
 Add the `"rules"` key to your config then add your additional/override rules. For example, if you want to change the `"indent"` and `"eol-last"` rules from default to your own add this:
 
