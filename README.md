@@ -8,7 +8,10 @@ We want to work with beautiful, nicely formatted code, so with the help of eslin
 
 ## Installation
 
-1. Install dependencies: `npm install eslint eslint-config-client-shiwaforce --save-dev`
+1. Install dependencies:
+	```
+	npm install eslint eslint-config-client-shiwaforce --save-dev
+	```
 2. Create eslint config file, which name is `.eslintrc` with the following content
 	```json
 	{
@@ -16,9 +19,9 @@ We want to work with beautiful, nicely formatted code, so with the help of eslin
 	}
 	```
 3. Check the result by the following command line
-
-	`./node_modules/.bin/eslint YOUR_FOLDER_OF_YOUR_JAVASCRIPT_FILES/**/*.js`
-
+	```
+	./node_modules/.bin/eslint YOUR_FOLDER_OF_YOUR_JAVASCRIPT_FILES/**/*.js OTHER_FOLER_OF_FILES/**/*.js ANOTHER_FOLDER_OF_FILES/**/*.js
+	```
 
 ## Usage
 
@@ -43,7 +46,9 @@ In case of a global installation the start the linter with...
 ```
 eslint YOUR_FOLDER_OF_YOUR_JAVASCRIPT_FILES/**/*.js
 ```
-But your
+But your colleagues are will be sad if they doesn't have globally installed linter and try to run linter from package.json for example. We recommend use the linter from project dependency, and not from global installation.
+
+---
 
 If running eslint gives a message indicating that running `eslint --init` is necessary then you created the .eslintrc file in the wrong place.
 

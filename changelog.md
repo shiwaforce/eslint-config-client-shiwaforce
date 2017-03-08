@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.5 / 2017.03.08.
+- improve readme
+
 ## 1.1.4 / 2017.03.06.
 - fixed babel-eslint dependency
 - improve readme
