@@ -11,7 +11,7 @@ module.exports = {
 	'no-regex-spaces':             [2],
 	'no-spaced-func':              [2],
 	'no-trailing-spaces':          [2],
-	'object-curly-spacing':        [2, 'never'],
+	// 'object-curly-spacing':        [2, 'never'],
 	'space-before-function-paren': [1, {named: 'never'}],
 	'space-before-blocks':         [1],
 	'space-infix-ops':             [2],

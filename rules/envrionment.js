@@ -6,5 +6,6 @@ module.exports = {
 	browser: true,
 	es6: true,
 	commonjs: true,
-	jquery: true
+	jquery: true,
+	mocha: true
 };
