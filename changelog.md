@@ -1,5 +1,8 @@
 # Changelog
 
+## 1.1.7 / 2017.03.20.
+- add jasmine framework by default
+
 ## 1.1.6 / 2017.03.16.
 - add mocha framework by default
 - temporarily remove object-curly-spacing rule because visual studio code bug
