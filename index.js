@@ -12,7 +12,9 @@ var rules = require('./rules/rules');
 module.exports = {
 	parser: parser,
 	env: envrionment,
-	ecmaFeatures: ecmaFeatures,
+	parserOptions: {
+		ecmaFeatures: ecmaFeatures
+	},
 	globals: predefinedGlobals,
 	rules: rules
 };

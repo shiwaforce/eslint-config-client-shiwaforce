@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.1.8 / 2017.06.16.
+- upgrade to new eslint version
+- fix eslint api break problem
+
 ## 1.1.7 / 2017.03.20.
 - add jasmine framework by default
 
