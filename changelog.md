@@ -1,4 +1,7 @@
 # Changelog
+## 1.1.10 / 2022.04.04.
+- update babel-eslint to new version
+- fix eslint api break problem
 
 ## 1.1.8 / 2017.06.16.
 - upgrade to new eslint version
