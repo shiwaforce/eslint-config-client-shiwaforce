@@ -7,12 +7,12 @@
     "url": "https://github.com/shiwaforce/eslint-config-client-shiwaforce/issues"
   },
   "dependencies": {
-    "babel-eslint": "10.1.0",
+    "@babel/eslint-parser": "^7.17.0",
     "extend": "^3.0.0"
   },
   "description": "Shareable client side config for eslint by ShiwaForce",
   "devDependencies": {
-    "eslint": "^4.0.0",
+    "eslint": "^8.0.0",
     "eslint-config-server-shiwaforce": "^1.0.1"
   },
   "homepage": "https://github.com/shiwaforce/eslint-config-client-shiwaforce#readme",
@@ -42,5 +42,5 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint index.js rules/*.js .eslintrc.js --ignore-pattern !.eslintrc.js"
   },
-  "version": "1.1.10"
+  "version": "1.1.11"
 }
