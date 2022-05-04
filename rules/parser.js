@@ -1,5 +1,5 @@
 /**
  * parser to use ES6 imports
- * @author Erik Banhalmi on 2017.03.03.
+ * @author wencyfyre on 2022.04.26.
  */
-module.exports = 'babel-eslint';
+module.exports = '@babel/eslint-parser';

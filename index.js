@@ -13,7 +13,8 @@ module.exports = {
 	parser: parser,
 	env: envrionment,
 	parserOptions: {
-		ecmaFeatures: ecmaFeatures
+		ecmaFeatures: ecmaFeatures,
+		requireConfigFile: false
 	},
 	globals: predefinedGlobals,
 	rules: rules
