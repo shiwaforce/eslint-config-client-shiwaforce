@@ -1,4 +1,7 @@
 # Changelog
+## 1.1.11 / 2022.06.09.
+- removed deprecated babel-eslint from dependencies
+
 ## 1.1.10 / 2022.04.04.
 - update babel-eslint to new version
 - fix eslint api break problem
