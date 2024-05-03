@@ -2,11 +2,11 @@
  * easier is better
  * @author sarkiroka on 2017.02.21.
  */
-module.exports = {
-	'complexity':                  [2],
-	'max-len':                     [2, {code: 160, ignoreTrailingComments: true, ignoreUrls: true}],
-	'max-lines':                   [2, {max: 300, skipComments: true, skipBlankLines: true}],
-	'max-nested-callbacks':        [2, {max: 3}],
-	'no-empty':                    [2],
-	'no-eval':                     [2]
+export default {
+	'complexity': ['error'],
+	'max-len': ['error', { code: 160, ignoreTrailingComments: true, ignoreUrls: true }],
+	'max-lines': ['error', { max: 300, skipComments: true, skipBlankLines: true }],
+	'max-nested-callbacks': ['error', { max: 3 }],
+	'no-empty': ['error'],
+	'no-eval': ['error']
 };

@@ -2,15 +2,13 @@
  * wrapper for rules
  * @author sarkiroka on 2017.02.21.
  */
-var extend = require('extend');
-var beauty = require('./beauty');
-var complexity = require('./complexity');
-var debugging = require('./debugging');
-var errors = require('./errors');
-var git = require('./git');
-var separator = require('./separator');
-var spacing = require('./spacing');
-var etc = require('./etc');
+import beauty from './beauty.js';
+import complexity from './complexity.js';
+import debugging from './debugging.js';
+import errors from './errors.js';
+import git from './git.js';
+import separator from './separator.js';
+import spacing from './spacing.js';
+import etc from './etc.js';
 
-var rules = extend({}, beauty, complexity, debugging, errors, git, separator, spacing, etc);
-module.exports = rules;
+export default { ...beauty, ...complexity, ...debugging, ...errors, ...git, ...separator, ...spacing, ...etc };

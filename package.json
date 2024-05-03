@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "author": {
     "name": "ShiwaForce",
     "email": "hello@shiwaforce.com"
@@ -7,11 +8,6 @@
     "url": "https://github.com/shiwaforce/eslint-config-client-shiwaforce/issues"
   },
   "description": "Shareable client side config for eslint by ShiwaForce",
-  "devDependencies": {
-    "eslint": "^8.17.0",
-    "eslint-config-server-shiwaforce": "^1.0.1",
-    "extend": "^3.0.0"
-  },
   "homepage": "https://github.com/shiwaforce/eslint-config-client-shiwaforce#readme",
   "keywords": [
     "eslint",
@@ -37,7 +33,10 @@
     "url": "git+https://github.com/shiwaforce/eslint-config-client-shiwaforce.git"
   },
   "scripts": {
-    "lint": "./node_modules/.bin/eslint index.js rules/*.js .eslintrc.js --ignore-pattern !.eslintrc.js"
+    "lint": "./node_modules/.bin/eslint index.js rules/*.js eslint.config.js"
   },
-  "version": "1.1.11"
+  "version": "1.1.11",
+  "peerDependencies": {
+    "eslint": "^9.1.1"
+  }
 }

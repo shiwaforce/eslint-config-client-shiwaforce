@@ -1,4 +1,7 @@
 # Changelog
+## 2.0.0 / 2024.05.03.
+- upgrade to eslint 9 flat config
+
 ## 1.1.11 / 2022.06.09.
 - removed deprecated babel-eslint from dependencies
 
