@@ -1,4 +1,7 @@
 # Changelog
+## 2.0.1 / 2024.05.03.
+- update README.md
+
 ## 2.0.0 / 2024.05.03.
 - upgrade to eslint 9 flat config
 
