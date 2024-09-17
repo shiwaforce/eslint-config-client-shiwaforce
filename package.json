@@ -43,7 +43,7 @@
   "scripts": {
     "lint": "./node_modules/.bin/eslint index.js rules/*.js .eslintrc.js --ignore-pattern !.eslintrc.js"
   },
-  "version": "1.1.11",
+  "version": "1.1.12",
   "volta": {
     "node": "20.17.0"
   }
